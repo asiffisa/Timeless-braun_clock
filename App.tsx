@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Square2StackIcon, CheckIcon } from '@heroicons/react/24/outline';
 import { PullCord, type PullCordConfig } from 'pullcord';
 import 'pullcord/pullcord.css';
+import { Analytics } from '@vercel/analytics/react';
 import Clock from './components/Clock';
 import type { ClockThemeName } from './components/Clock/constants';
 
@@ -494,6 +495,7 @@ const App: React.FC = () => {
           </div>
         </footer>
       </div>
+      <Analytics />
     </main>
   );
 };
