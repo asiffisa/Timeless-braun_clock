@@ -457,7 +457,7 @@ const App: React.FC = () => {
                 rel="noopener noreferrer"
                 className="footer-signature-link"
               >
-                <img src="/asif%20sign.png" alt="Asif Signature" className="footer-signature" />
+                <img src="/asif%20sign.png?v=f1cb37a" alt="Asif Signature" className="footer-signature" />
               </a>
               <a
                 href="https://cradlstudio.in/"
